@@ -1,3 +1,9 @@
+function sayLearnJs () {
+    console.log('Я учу javascript');
+}
+sayLearnJs();
+
+
 let slideIndex=1;
 
 showSlides(slideIndex);
