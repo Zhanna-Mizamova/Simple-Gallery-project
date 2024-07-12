@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cats</h1>
+    <div class="container">
+        <div class="my-slides">
+                <img src="assets/images/cat1.jpg" style="width:100%" alt="">
+        </div>
+        <div class="my-slides">
+            <img src="assets/images/cat2.jpg" style="width:100%" alt="">
+        </div>
+    </div>
+    <button class="prev" onclick="plusSlides(-1)">Вперед</button>
+    <button class="next" onclick="plusSlides(1)">Назад</button>
+    <br>
+    <div style="text-align:center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div >
+    
+    <script src="main.js"></script>
+</body>
+</html>
